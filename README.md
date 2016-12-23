@@ -9,9 +9,9 @@ Push in O(1). GET in O(N),  N is the number of messages in the specified range t
     
     >>> queue = MessageQueue(r)
     
-    # push message to queue.
-    >>> message1 = {'text': 'hello world!'}
-    >>> message2 = {'text': 'hi world!'}
+    # push message to queue, 'msg_id' is required.
+    >>> message1 = {'text': 'hello world!', 'msg_id': '2ebd68'}
+    >>> message2 = {'text': 'hi world!', 'msg_id': '4dce26'}
     >>> queue.push_to_queue(user_id, message1)
     True
 
