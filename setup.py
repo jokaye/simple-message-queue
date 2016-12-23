@@ -6,11 +6,11 @@ except ImportError:
 setup(
     name='simple_message_queue)',
     description='Simple message queue implemented by redis.',
-    version='0.0.0',
+    version='0.0.1',
     packages=['simple_message_queue',],
     license='MIT',
     author='jokaye',
-    author_email='jokaye@gmail.com',
+    author_email='vjokaye@gmail.com',
     url='https://github.com/jokaye/simple-message-queue',
     keywords='redis message queue',
     long_description='',

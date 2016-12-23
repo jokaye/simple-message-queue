@@ -13,7 +13,10 @@ Push in O(1). GET in O(N),  N is the number of messages in the specified range t
     >>> message1 = {'text': 'hello world!'}
     >>> message2 = {'text': 'hi world!'}
     >>> queue.push_to_queue(user_id, message1)
+    True
+
     >>> queue.push_to_queue(user_id, message2)
+    True
     
     # get messages from queue, specific user_id and page_size.
     >>> queue.get_messages(user_id, page_size)
