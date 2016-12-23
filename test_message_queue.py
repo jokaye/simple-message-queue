@@ -5,7 +5,7 @@ import unittest
 import uuid
 
 
-class TestLfuCache(unittest.TestCase):
+class TestMessageQueue(unittest.TestCase):
 
     def setUp(self):
         self.r = redis.StrictRedis(host='127.0.0.1', port=6379, db=11)
